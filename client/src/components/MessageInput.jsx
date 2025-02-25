@@ -15,7 +15,7 @@ const MessageInput = ({match}) => {
         e.preventDefault();
         if (message.trim()) {
             sendMessage(match._id, message);
-            sendMessage("");
+            setMessage("");
         }
     };
 
